@@ -1,4 +1,4 @@
-setInterval(showTime, 1000);
+setInterval(showTime, 10000);
 function showTime() {
     let time = new Date();
     let seconds = time.getSeconds();

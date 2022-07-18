@@ -12,6 +12,11 @@ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 /* Sections
    ========================================================================== */
@@ -67,7 +72,7 @@ pre {
 }
 
 /* Text-level semantics
-   ========================================================================== */
+   ====================img====================================================== */
 
 /**
  * Remove the gray background on active links in IE 10.
@@ -147,6 +152,7 @@ sup {
 
 img {
   border-style: none;
+  max-width: 100%;
 }
 
 /* Forms

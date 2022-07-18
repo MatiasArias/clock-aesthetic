@@ -8,12 +8,17 @@ body {
 }
 
 .clock{
-    margin:70px;
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
+    height: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 .time{
@@ -26,6 +31,7 @@ body {
     border-radius: 10%;
     font-size: 300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #b7b7b7;
@@ -35,7 +41,12 @@ body {
 #AM-PM{
     color: #b7b7b7;
     position: relative;
-    font-size: 20px;
+    height: 0;
+    width: 0;
+    box-sizing: inherit;
+    font-size: 30px;
+    top: -5%;
+    left: -45%;
 }
 
 footer {
@@ -47,6 +58,7 @@ footer {
     align-items: center;
     letter-spacing: 1px;
     font-weight: 100;
+    position: absolute;
 }
 .divisor {
     background-color: #000;
